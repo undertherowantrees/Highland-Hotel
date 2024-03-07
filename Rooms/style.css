@@ -121,7 +121,7 @@ a:hover{
     background-color: antiquewhite;
    
 }
-.container ul {
+.boxes ul {
     display:flex;
     flex-direction:column;
     flex-wrap:wrap;
@@ -141,14 +141,14 @@ a:hover{
 .facility-list2 {
     width:50%;
 }
-#box1, #box2, #box3, #box4 li{
+#box1 li, #box2 li, #box3 li, #box4 li{
     font-family:"GFS Didot";
     font-size:18px;
     color:#1E303C;
     padding:5px;
     justify-content:flex-start;
 }
-#box1, #box2, #box3, #box4 .fa-solid {
+#boxes .fa-solid {
     font-size: 18px;
     color:#1E303C;
 }
