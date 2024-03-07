@@ -166,7 +166,7 @@ h3 {
 }
 Form {
     background-color:#1E303C;
-    width:80%;
+    width:95%;
     margin:auto;
     display:flex;
     flex-direction:row;
@@ -174,8 +174,7 @@ Form {
     justify-content:center;
     align-content:center;
     align-items:center;
-    padding-top:15px;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 Form label {
@@ -264,12 +263,12 @@ input[type=text]:focus {
     justify-content:space-around;
     align-content:center;
     align-items:center;
-    padding:10px;
-    width: 100%;
+    margin:auto;
+    width: 95%;
     background-color: antiquewhite;
     border: solid 2px #9EA799;
     border-radius: 5px;
-    margin:10px;
+    margin:20px;
 }
 
 .reviews h2 {
