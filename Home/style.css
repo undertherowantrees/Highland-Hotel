@@ -113,12 +113,7 @@ a:hover{
     display:flex;
     justify-content:center;
     align-items:center;
-    background-image: linear-gradient(
-        to bottom,
-        rgb(0 0 0 / 50%),
-        rgb(0 0 0 / 50%)
-      ), url(/Highland-Hotel/Team_6_Images/2.jpg);
-    min-height:600px;
+    background-image: url(/Highland-Hotel/Overlay_Highland_Hotel_Images/Castle_East_Overlay.jpg);
     background-position: center center;
     background-repeat:no-repeat;
     margin:auto;
