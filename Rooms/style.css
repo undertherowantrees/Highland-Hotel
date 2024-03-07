@@ -4,7 +4,7 @@ body {
     line-height:1.5;
     margin:0;
     padding:0;
-    background-image: url("../Team_6_images/tartan.jpg");
+    background-image: url("/Highland-Hotel/Team_6_Images/Tartan.jpg");
 }
 
 /* Global */
@@ -136,6 +136,14 @@ a:hover{
     border-radius: 5px;
     margin-bottom: 20px;
     margin-top: 20px;
+}
+.facilities img {
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    align-items:center;
+    margin:auto;
+    width: 80%;
 }
 /* Booking Form */
 
@@ -456,7 +464,7 @@ footer #social_links li{
         width:100%;
         display:flex;
         flex-wrap:wrap;
-        flex-direction:column;
+        flex-direction:row;
     }
 
     footer #social_links{

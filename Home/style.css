@@ -183,8 +183,6 @@ footer {
     color:antiquewhite;
     text-decoration:none;
     font-family: "GFS Didot";
-    margin:0;
-    padding:0;
 }
 
 footer #social_links li{
@@ -196,7 +194,7 @@ footer #social_links li{
     text-decoration:none;
 }
 /* phone version */
-@media only screen and (max-width:400px){
+@media only screen and (max-width:767px){
     .header{
         width:100%;
         display:flex;
@@ -253,7 +251,7 @@ footer #social_links li{
 }
 
 /* Tablet version */
-@media only screen and (min-width:400px){
+@media only screen and (min-width:768px){
     .header {
         width:100%;
         min-height:100px;
@@ -314,7 +312,7 @@ footer #social_links li{
 }
 
 /* desktop version */
-@media only screen and (min-width:980px){
+@media only screen and (min-width:992px){
     .header {
         display:flex;
         width: 100%;
