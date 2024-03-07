@@ -158,7 +158,7 @@ a:hover{
 }
 
 /* Facilities */
-.facilities {
+.facilities_grid {
     background-color: #9EA799;
     width:80%;
     margin:auto;
@@ -167,13 +167,11 @@ a:hover{
     justify-content:space-around;
     align-content:center;
     align-items:center;
-    padding:10px;
-    border: solid 2px #1E303C;
     border-radius: 5px;
     margin-bottom: 20px;
     margin-top: 20px;
 }
-.facilities img {
+.facilities_grid img {
     display:flex;
     justify-content:center;
     align-content:center;
@@ -182,7 +180,7 @@ a:hover{
     width: 80%;
 }
 
-.facilities h3 {
+.facilities_grid h3 {
     font-family:"GFSDidot";
     display:flex;
     justify-content:center;
@@ -190,7 +188,7 @@ a:hover{
     color:#1E303C;
 }
 
-.facilities p {
+.facilities_grid p {
     font-family:Georgia, 'Times New Roman', Times, serif;
     display:flex;
     justify-content:center;
@@ -218,7 +216,7 @@ h3 {
 }
 Form {
     background-color:#1E303C;
-    width:95%;
+    width:100%;
     margin:auto;
     display:flex;
     flex-direction:row;
@@ -496,8 +494,11 @@ footer #social_links li{
         max-width: 90%;
         margin:auto;
     }
+    .boxes p {
+        max-width:90%;
+    }
 
-    .booking {
+    .booking_reviews {
         width:100%;
         display:flex;
         flex-direction:column;
@@ -507,8 +508,16 @@ footer #social_links li{
         background-color: #9EA799;
         margin:auto;
     }
-    .booking .reviews {
-        width: 80%;
+
+    .facilities_grid {
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-content:center;
+        align-items:center;
+        background-color: #9EA799;
+        margin:auto;
     }
 
     footer {
@@ -594,7 +603,29 @@ footer #social_links li{
     }
 
     .container #box1, #box2, #box3, #box4 {
-        max-width: 420px;
+        max-width: 480px;
+    }
+
+    .facilities_grid {
+        width:80%;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-content:center;
+        align-items:center;
+        background-color: #9EA799;
+        margin:auto;
+    }
+    .booking_reviews {
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-content:center;
+        align-items:center;
+        background-color: #9EA799;
+        margin:auto;
+        width:80%;
+        margin:auto;
     }
     .booking {
         width:80%;
@@ -606,8 +637,11 @@ footer #social_links li{
         background-color: #9EA799;
         margin:auto;
     }
-    .booking .reviews {
-        width: 100%;
+    .booking {
+        width:60%;
+    }
+    .reviews {
+        width:40%;
     }
 
     footer {
