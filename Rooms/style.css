@@ -38,9 +38,6 @@ body {
     font-weight: 400;
     font-style: normal;
   }
-  
-  
-  
 
 
 a {
@@ -94,16 +91,20 @@ a:hover{
     background-color: #9EA799;
 }
 
-.container h2 {
+.container h2{
     font-family:"GFS Didot";
+    font-size:36px;
     color:#1E303C;
-    font-weight: bold;
-    text-decoration: underline;
+    text-align:center;
+    text-justify:center;
 }
 
-.container p {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+.container p{
+    font-family:"Georgia";
+    font-size:18px;
     color:#1E303C;
+    text-align:center;
+    text-justify:center;
 }
 
 #box1, #box2, #box3, #box4 {
@@ -119,6 +120,41 @@ a:hover{
     width: 80%;
     background-color: antiquewhite;
    
+}
+.container ul {
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content:center;
+    list-style:none;
+}
+
+.room-facilities {
+    display:flex;
+    flex-direction:row;
+    width:100%;
+}
+
+.facility-list1 {
+    width:50%;
+}
+.facility-list2 {
+    width:50%;
+}
+#box1, #box2, #box3, #box4 li{
+    font-family:"GFS Didot";
+    font-size:18px;
+    color:#1E303C;
+    padding:5px;
+    justify-content:flex-start;
+}
+#box1, #box2, #box3, #box4 .fa-solid {
+    font-size: 18px;
+    color:#1E303C;
+}
+
+.container i {
+    padding-right: 5px;
 }
 
 /* Facilities */
@@ -144,6 +180,22 @@ a:hover{
     align-items:center;
     margin:auto;
     width: 80%;
+}
+
+.facilities h3 {
+    font-family:"GFSDidot";
+    display:flex;
+    justify-content:center;
+    font-size:28px;
+    color:#1E303C;
+}
+
+.facilities p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display:flex;
+    justify-content:center;
+    color:#1E303C;
+    font-size:18px;
 }
 /* Booking Form */
 
@@ -175,6 +227,7 @@ Form {
     align-content:center;
     align-items:center;
     margin: 20px;
+    border-radius:5px;
 }
 
 Form label {
@@ -255,6 +308,7 @@ input[type=text]:focus {
     font-size: 18px;
     border-radius:5px;
     padding: 5 0 5 0;
+    margin-bottom:15px;
 }
 
 .reviews {
@@ -268,6 +322,7 @@ input[type=text]:focus {
     background-color: antiquewhite;
     border: solid 2px #9EA799;
     border-radius: 5px;
+    padding:10px;
     margin:20px;
 }
 
@@ -339,20 +394,18 @@ footer #social_links li{
         width:100%;
     }
 
-    .container #box1 img {
+    .container #box1 img, #box2 img, #box3 img, #box4 img {
         max-width: 90%;
     }
 
-    .container #box2 img {
+    .boxes {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-content:center;
+        align-items:center;
         max-width: 90%;
-    }
-
-    .container #box3 img {
-        max-width: 90%;
-    }
-
-    .container #box4 img {
-        max-width: 90%;
+        margin:auto;
     }
 
     .booking {
@@ -430,21 +483,20 @@ footer #social_links li{
         width:100%;
     }
 
-    .container #box1 img {
+    .container #box1 img, #box2 img, #box3 img, #box4 img {
         max-width: 90%;
     }
 
-    .container #box2 img {
+    .boxes {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-content:center;
+        align-items:center;
         max-width: 90%;
+        margin:auto;
     }
 
-    .container #box3 img {
-        max-width: 90%;
-    }
-
-    .container #box4 img {
-        max-width: 90%;
-    }
     .booking {
         width:100%;
         display:flex;
@@ -518,26 +570,31 @@ footer #social_links li{
 
     .container {
         display:flex;
+        flex-direction:column;
         justify-content:center;
         align-content:center;
-        align-items: center;
+        margin:auto;
         width:80%;
+        overflow:hidden;
+        background-color: #9EA799;
+    }
+    .boxes{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        flex-wrap:wrap;
+        align-content:flex-start;
+        align-items: flex-start;
+        width:100%;
+        margin:auto;
     }
 
-    .container #box1 img {
+    .container #box1 img, #box2 img, #box3 img, #box4 img {
         max-width: 90%;
     }
 
-    .container #box2 img {
-        max-width: 90%;
-    }
-
-    .container #box3 img {
-        max-width: 90%;
-    }
-
-    .container #box4 img {
-        max-width: 90%;
+    .container #box1, #box2, #box3, #box4 {
+        max-width: 420px;
     }
     .booking {
         width:80%;
