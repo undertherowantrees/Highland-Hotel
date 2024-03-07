@@ -409,6 +409,9 @@ footer #social_links li{
         margin:auto;
     }
 
+.boxes li {
+font-size:14px;
+
     .bottom_page {
         width:100%;
         display:flex;
