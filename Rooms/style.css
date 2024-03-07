@@ -194,6 +194,9 @@ a:hover{
     justify-content:center;
     color:#1E303C;
     font-size:18px;
+    width:80%;
+    margin:auto;
+    padding-bottom:20px;
 }
 /* Booking Form */
 
@@ -406,7 +409,7 @@ footer #social_links li{
         margin:auto;
     }
 
-    .booking {
+    .bottom_page {
         width:100%;
         display:flex;
         flex-direction:column;
@@ -417,8 +420,15 @@ footer #social_links li{
         margin:auto;
     }
 
-    .booking .reviews {
-        width: 80%;
+    .booking_reviews {
+        width:90%;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-content:center;
+        align-items:center;
+        background-color: #9EA799;
+        margin:auto;
     }
 
     footer {
@@ -510,6 +520,17 @@ footer #social_links li{
     }
 
     .facilities_grid {
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-content:center;
+        align-items:center;
+        background-color: #9EA799;
+        margin:auto;
+    }
+
+    .bottom_page {
         width:100%;
         display:flex;
         flex-direction:column;
@@ -616,6 +637,19 @@ footer #social_links li{
         background-color: #9EA799;
         margin:auto;
     }
+    .facilities_grid img{
+        display:flex;
+        justify-content:center;
+        align-content:center;
+        align-items:center;
+        margin:auto;
+        width: 80%;
+    }
+    .bottom_page {
+        width:80%;
+        background-color:#9EA799;
+        margin:auto;
+    }
     .booking_reviews {
         display:flex;
         flex-direction:row;
@@ -628,7 +662,7 @@ footer #social_links li{
         margin:auto;
     }
     .booking {
-        width:80%;
+        width:100%;
         display:flex;
         flex-direction:row;
         justify-content:space-around;
@@ -637,11 +671,8 @@ footer #social_links li{
         background-color: #9EA799;
         margin:auto;
     }
-    .booking {
-        width:60%;
-    }
     .reviews {
-        width:40%;
+        width:100%;
     }
 
     footer {

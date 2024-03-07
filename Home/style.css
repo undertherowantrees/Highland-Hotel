@@ -115,6 +115,7 @@ a:hover{
     align-items:center;
     background-image: url(/Highland-Hotel/Overlay_Highland_Hotel_Images/Castle_East_Overlay.jpg);
     background-position: center center;
+    background-size:cover;
     background-repeat:no-repeat;
     margin:auto;
 }
