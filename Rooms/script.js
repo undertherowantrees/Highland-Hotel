@@ -1,38 +1,33 @@
-const bookingForm1 = document.querySelector('#booking_form1');
-const firstName = document.querySelector('#fName');
-const lastName = document.querySelector('#lName');
-const email = document.querySelector('#email');
-const address = document.querySelector('#address');
-const phone = document.querySelector('#phone');
-const roomType = document.querySelector('#roomChoice');
-const guestNumber = document.querySelector('#quantity');
-const checkIn = document.querySelector('#checkIn');
-const checkOut = document.querySelector('#checkOut');
-const msg = document.querySelector('.msg');
-const userList = document.querySelector('#users');
+// Get the form element
+const form = document.querySelector('#booking_form1');
 
-bookingForm1.addEventListener('submit', onSubmit);
+// Add event listener to the submit button
+form.addEventListener('submit', (event) => {
+  event.preventDefault(); // Prevent form submission
 
-function onSubmit(e) {
-  e.preventDefault();
-  if(firstName.value === '' || lastName.value === '' || email.value === '' || address.value === '' || phone.value === '' || roomType.value === '' || guestNumber.value === '' || checkIn.value === '' || checkOut.value === '') {
-    msg.classList.add('error');
-    msg.innerHTML = 'Please enter all fields';
-    setTimeout(() => msg.remove(), 3000);
+  // Get all input fields
+  const inputs = form.querySelectorAll('input');
+
+  // Check if all fields are complete
+  let isComplete = true;
+  inputs.forEach((input) => {
+    if (input.value.trim() === '') {
+      isComplete = false;
+      return;
+    }
+  });
+
+  // Display appropriate message
+  if (isComplete) {
+    showMessage('Success! Check your emails for confirmation.');
   } else {
-    const li = document.createElement('li');
-    li.appendChild(document.createTextNode(`${firstName.value} : ${lastName.value} : ${email.value} : ${address.value} : ${phone.value} : ${roomType.value} : ${guestNumber.value} : ${checkIn.value} : ${checkOut.value}`));
-    userList.appendChild(li);
-    // Clear fields
-    firstName.value = '';
-    lastName.value = '';
-    email.value = '';
-    address.value = '';
-    phone.value = '';
-    roomType.value = '';
-    guestNumber.value = '';
-    checkIn.value = '';
-    checkOut.value = '';
+    showMessage('Error! Please complete all fields.');
   }
-  console.log(firstName.value, lastName.value, email.value, address.value, phone.value, roomType.value, guestNumber.value, checkIn.value, checkOut.value);
+  setTimeout(() => msg.remove(), 1000);
+});
+
+// Function to display message
+function showMessage(message) {
+  const messageElement = document.querySelector('.msg');
+  messageElement.textContent = message;
 }
