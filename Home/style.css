@@ -4,6 +4,7 @@ body {
     line-height:1.5;
     margin:0;
     padding:0;
+    background-image:url(/Highland-Hotel/Team_6_Images/Tartan.jpg);
 }
 
 /* Global */
@@ -15,6 +16,7 @@ body {
     justify-content:space-around;
     width:80%;
     overflow:hidden;
+    background-color: #9EA799;
 }
 
 /* Fonts */
@@ -39,7 +41,7 @@ body {
 
 a {
     text-decoration:none;
-    color:antiquewhite;
+    color:#CDA280;
     font-family:"GFS Didot";
 }
 
@@ -50,7 +52,7 @@ header {
 #mainnav ul{
     padding-right:10px;
     list-style:none;
-    color:antiquewhite;
+    color:#CDA280;
 }
 
 #mainnav li{
@@ -160,9 +162,134 @@ iframe {
     flex-wrap:wrap;
     margin-bottom: 20px;
 }
+
+.facilities_home{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:space-around;
+    align-content:center;
+    align-items:center;
+    padding:10px;
+    border-radius: 5px;
+    margin:10px;
+    margin:auto;
+}
+
+.facilities_home h2 {
+    font-family: "Bebas Neue";
+    font-size: 48px;
+    color: #9EA799;
+    text-align: center;
+    text-justify: center;
+}
+
+.facilities_home p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    text-justify: center;
+    width:80%;
+    margin:auto;
+}
+
+.rooms {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:space-around;
+    align-content:center;
+    align-items:center;
+    padding:10px;
+    width: 80%;
+    background-color: #CDA280;
+    border: solid 2px #9EA799;
+    border-radius: 5px;
+    margin:10px;
+    margin:auto;
+    background-image: url(/Highland-Hotel/Overlay_Highland_Hotel_Images/Oak_Suite_Overlay.jpg);
+    min-height:600px;
+    background-position: center center;
+}
+
+.restaurant {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:space-around;
+    align-content:center;
+    align-items:center;
+    padding:10px;
+    width: 80%;
+    background-color: #CDA280;
+    border: solid 2px #9EA799;
+    border-radius: 5px;
+    margin:10px;
+    margin:auto;
+    background-image: url(/Highland-Hotel/Overlay_Highland_Hotel_Images/Restaurant_Overlay.jpg);
+    min-height:600px;
+    background-position: center center;
+}
+
+.spa{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:space-around;
+    align-content:center;
+    align-items:center;
+    padding:10px;
+    width: 80%;
+    background-color: #CDA280;
+    border: solid 2px #9EA799;
+    border-radius: 5px;
+    margin:10px;
+    margin:auto;
+    background-image: url(/Highland-Hotel/Overlay_Highland_Hotel_Images/Spa_Overlay.jpg);
+    min-height:600px;
+    background-position: center center;
+} 
+.lounge{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:space-around;
+    align-content:center;
+    align-items:center;
+    padding:10px;
+    width: 80%;
+    background-color: #CDA280;
+    border: solid 2px #9EA799;
+    border-radius: 5px;
+    margin:10px;
+    margin:auto;
+    background-image: url(/Highland-Hotel/Overlay_Highland_Hotel_Images/Lounge_2_Overlay.jpg);
+    min-height:600px;
+    background-position: center center;
+} 
+.bar{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:space-around;
+    align-content:center;
+    align-items:center;
+    padding:10px;
+    width: 80%;
+    background-color: #CDA280;
+    border: solid 2px #9EA799;
+    border-radius: 5px;
+    margin:10px;
+    margin:auto;
+    background-image: url(/Highland-Hotel/Overlay_Highland_Hotel_Images/Bar_Overlay.jpg);
+    min-height:600px;
+    background-position: center center;
+} 
+
 .book_now {
     background-color: #1E303C;
-    color:antiquewhite;
+    color:white;
     font-family: "GFS Didot";
     font-size: 18px;
     border-radius:5px;
@@ -186,7 +313,7 @@ iframe {
     align-items:center;
     padding:10px;
     width: 80%;
-    background-color: antiquewhite;
+    background-color: #CDA280;
     border: solid 2px #9EA799;
     border-radius: 5px;
     margin:10px;
@@ -289,7 +416,7 @@ footer {
     display:flex;
     flex-direction:row;
     justify-content:space-around;
-    color:antiquewhite;
+    color:#CDA280;
     text-decoration:none;
     font-family: "GFS Didot";
 }
@@ -440,6 +567,7 @@ footer #social_links li{
     #mainnav ul {
         display:flex;
         flex-wrap:wrap;
+        padding-right:30px;
 
     }
 
@@ -460,6 +588,7 @@ footer #social_links li{
         max-height:120px;
         max-width:120px;
         padding-bottom:20px;
+        padding-left:30px;
     }
     .slideshow-container {
         width:80%;
