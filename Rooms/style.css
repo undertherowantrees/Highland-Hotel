@@ -86,14 +86,15 @@ a:hover{
 .container h1 {
     display:flex;
     justify-content:center;
-    color:#3A6E5A;
+    color:#1E303C;
+    font-size:42px;
     font-family:"Bebas Neue";
     background-color: #9EA799;
 }
 
 .container h2{
     font-family:"GFS Didot";
-    font-size:36px;
+    font-size:42px;
     color:#1E303C;
     text-align:center;
     text-justify:center;
@@ -201,13 +202,6 @@ a:hover{
 }
 /* Booking Form */
 
-h3 {
-    font-family:"Bebas Neue";
-    display:flex;
-    justify-content:center;
-    font-size:28px;
-    background-color: #9EA799;
-}
 .booking {
     width:80%;
     display:flex;
@@ -325,6 +319,17 @@ input[type=text]:focus {
     background-color: #9EA799;
     display:flex;
     justify-content:center;
+}
+
+.bottom_page h3{
+    font-family:"Bebas Neue";
+    display:flex;
+    justify-content:center;
+    font-size:42px;
+    color:#1E303C;
+    background-color: #9EA799;
+    padding:0;
+    margin:0;
 }
 
 .reviews {
