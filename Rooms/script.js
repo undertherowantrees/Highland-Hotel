@@ -23,11 +23,13 @@ form.addEventListener('submit', (event) => {
   } else {
     showMessage('Error! Please complete all fields.');
   }
-  setTimeout(() => msg.remove(), 1000);
 });
 
 // Function to display message
 function showMessage(message) {
   const messageElement = document.querySelector('.msg');
   messageElement.textContent = message;
+  setTimeout(() => {
+    messageElement.textContent = '';
+  }, 10000);
 }
