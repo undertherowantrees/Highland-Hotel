@@ -4,7 +4,7 @@ body {
     line-height:1.5;
     margin:0;
     padding:0;
-    background-image: url("/Highland-Hotel/Team_6_Images/Tartan.jpg");
+    background-image: url("/Team_6_Images/Tartan.jpg");
 }
 
 /* Global */
@@ -310,15 +310,16 @@ input[type=text]:focus {
 .msg {
     font-family: "GFS Didot";
     font-style: bold;
-    font-size: 24px;
-    color:red;
+    font-size: 18px;
+    color:#CDA280;
     padding: 10px;
     margin: 10px;
     width: 100%;
-    border-radius: 4px;
-    background-color: #9EA799;
+    border-radius: 4px;;
     display:flex;
     justify-content:center;
+    align-items: center;
+    text-align: center;
 }
 
 .bottom_page h3{
@@ -655,7 +656,7 @@ footer #social_links li{
     }
 
     .container #box1, #box2, #box3, #box4 {
-        max-width: 480px;
+       width: 480px;;
     }
 
     .facilities_grid {
