@@ -260,7 +260,7 @@ iframe {
     border: solid 2px #9EA799;
     border-radius: 5px;
     margin:auto;
-    background-image: url(/Overlay_Highland_Hotel_Images/Lounge_2_Overlay.jpg);
+    background-image: url(Overlay_Highland_Hotel_Images/Lounge_2_Overlay.jpg);
     min-height:600px;
     background-position: center center;
 } 
@@ -277,7 +277,7 @@ iframe {
     border: solid 2px #9EA799;
     border-radius: 5px;
     margin:auto;
-    background-image: url(/Overlay_Highland_Hotel_Images/Bar_Overlay.jpg);
+    background-image: url(Overlay_Highland_Hotel_Images/Bar_Overlay.jpg);
     min-height:600px;
     background-position: center center;
 } 
