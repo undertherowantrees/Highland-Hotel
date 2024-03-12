@@ -6,7 +6,57 @@ body {
     padding:0;
     background-image:url(/Team_6_Images/Tartan.jpg);
 }
+.images{
+    align-items: center;   
+}
 
+h1{
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-style: normal;
+background-color: #3A6E5A;
+font: bolder;
+font-size: 50px;
+}
+
+.title{
+    font-family: "GFS Didot", serif;
+    font-weight: 1000;
+    font-style: normal;
+    font: bold;
+    font-size: 100px;
+    align-items: center;
+    color: rgb(173, 112, 38);
+    padding: 20px left, right, top, bottom;
+    text-size-adjust: 500px;
+}
+
+.body{
+    background-color: #9EA799;
+}
+
+.img1{
+margin-top: 200px;
+margin-bottom: 200px;
+margin-right: 200px;
+margin-left: 10px;
+align-items: center;
+border: #1E303C, solid;
+width: 50%;
+height: auto;
+padding: auto;
+}
+
+.img2{
+align-items: center;
+width: 50%;
+height: auto;
+}
+
+.img3 {
+align-self: center;
+max-width: 500px;
+}
 /* Global */
 
 .container {
