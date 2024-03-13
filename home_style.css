@@ -5,6 +5,7 @@ body {
     margin:0;
     padding:0;
     background-image:url(Team_6_Images/Tartan.jpg);
+    width:100%;
 }
 
 /* Global */
@@ -14,6 +15,7 @@ body {
     flex-direction:column;
     margin:auto;
     justify-content:space-around;
+    align-items:center;
     width:80%;
     overflow:hidden;
     background-color: #9EA799;
@@ -81,11 +83,6 @@ a:hover{
     text-decoration:underline;
 }
 /* Home Main Section */
-.container{
-    width:80%;
-    display:flex;
-    justify-content:space-around;
-}
 .container h1{
     font-family:"Bebas Neue";
     font-size:50px;
@@ -204,7 +201,7 @@ iframe {
     padding:10px;
     width: 80%;
     background-color: #CDA280;
-    border: solid 2px #9EA799;
+    border: solid 20px #9EA799;
     border-radius: 5px;
     margin:auto;
     background-image: url(Overlay_Highland_Hotel_Images/Oak_Suite_Overlay.jpg);
@@ -222,7 +219,7 @@ iframe {
     padding:10px;
     width: 80%;
     background-color: #CDA280;
-    border: solid 2px #9EA799;
+    border: solid 20px #9EA799;
     border-radius: 5px;
     margin:auto;
     background-image: url(Overlay_Highland_Hotel_Images/Restaurant_Overlay.jpg);
@@ -240,7 +237,7 @@ iframe {
     padding:10px;
     width: 80%;
     background-color: #CDA280;
-    border: solid 2px #9EA799;
+    border: solid 20px #9EA799;
     border-radius: 5px;
     margin:auto;
     background-image: url(Overlay_Highland_Hotel_Images/Spa_Overlay.jpg);
@@ -257,7 +254,7 @@ iframe {
     padding:10px;
     width: 80%;
     background-color: #CDA280;
-    border: solid 2px #9EA799;
+    border: solid 20px #9EA799;
     border-radius: 5px;
     margin:auto;
     background-image: url(Overlay_Highland_Hotel_Images/Lounge_2_Overlay.jpg);
@@ -274,7 +271,7 @@ iframe {
     padding:10px;
     width: 80%;
     background-color: #CDA280;
-    border: solid 2px #9EA799;
+    border: solid 20px #9EA799;
     border-radius: 5px;
     margin:auto;
     background-image: url(Overlay_Highland_Hotel_Images/Bar_Overlay.jpg);
@@ -403,6 +400,13 @@ iframe {
     from {opacity: .4}
     to {opacity: 1}
   }
+
+  #map{
+    width:80%;
+    height:400px;
+    margin:auto;
+    margin-bottom:20px;
+  }
 /* footer */
 
 footer {
@@ -471,6 +475,7 @@ footer #social_links li{
         width:100%;
         margin:auto;
         margin-bottom:20px;
+        border:solid 10px #9EA799;
     }
 
     .slideshow-container {
@@ -529,6 +534,11 @@ footer #social_links li{
         justify-content:center;
     }
 
+    .container {
+        width:100%;
+        margin:auto;
+    }
+
     #showcase {
         width:100%;
     }
@@ -546,6 +556,7 @@ footer #social_links li{
         width:100%;
         margin:auto;
         margin-bottom:20px;
+        border:solid 10px #9EA799;
     }
 
     .slideshow-container {
@@ -607,6 +618,12 @@ footer #social_links li{
         max-width:120px;
         padding-bottom:20px;
         padding-left:30px;
+    }
+
+    .container {
+        width:80%;
+        margin:auto;
+        margin-bottom: 20px;
     }
 
     #showcase image {
