@@ -130,19 +130,17 @@ padding:20px;
     list-style: none;
 }
 
-.title {
+#title p{
     font-family: "GFS Didot", serif;
     font-weight: 1000;
     font-style: normal;
-    font-family: "GFS Didot";
-    font-size: 48px;
+    font-size: 24px;
     display:flex;
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
     align-items: center;
     margin:auto;
-    color: rgb(173, 112, 38);
     background-color: #9EA799;
     margin: auto;
     width:80%;
