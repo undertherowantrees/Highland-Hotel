@@ -338,6 +338,18 @@ text-decoration:none;
     padding-bottom:20px;
 }
 
+.container {
+  width:100%;
+}
+
+.options_bar {
+  width:100%;
+}
+
+.card {
+  width:100%;
+}
+
 footer {
     width:100%;
     display:flex;
@@ -389,7 +401,17 @@ footer #social_links{
     display:flex;
     justify-content:center;
 }
+.container {
+  width:100%;
+}
 
+.options_bar {
+  width:100%;
+}
+
+.card {
+  width:100%;
+}
 footer {
     width:100%;
     display:flex;
