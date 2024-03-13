@@ -3,46 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spa</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=GFS+Didot&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=GFS+Didot&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="spa_style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/25118ccfa6.js" crossorigin="anonymous"></script>
+    <title>SPA</title>
 </head>
 <body>
-  <!-- Header -->
-  <header class="header">
-    <div class="branding">
-    <!-- logo -->
-    <img src="Team_6_Images/Cow_Logo_Circle.png" alt="Highland Cow Logo">
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <script src="function.js"></script>
+  </head>
+  <body>
+    </html><header class="header">
+      <div class="branding">
+      <img src="Cow_Logo_Circle.png" alt="Highland Cow Logo">
+      </div>
+      <div id="mainnav">
+          <ul>
+              <li><a href="index.html"><span class=fa><i class="fa-brands fa-fort-awesome"></i></span>Home</a></li>
+              <li><a href="Rooms.html"><span class=fa><i class="fa-solid fa-bed"></i></span>Rooms</a></li>
+              <li><a href="restaurant.html"><span class=fa><i class="fa-solid fa-utensils"></i></span>Restaurant</a></li>
+              <li class="current"><a href="spa.html"><span class=fa><i class="fa-solid fa-spa"></i></span>Spa</a></li>
+          </ul>
+      </div>
+  </header>
+    <div class="pagetitle">
+      <img src="Harmony Spa.png" alt="harmony-spa-logo">
     </div>
-    <div id="mainnav">
-        <ul>
-            <li><a href="index.html"><span class=fa><i class="fa-brands fa-fort-awesome"></i></span>Home</a></li>
-            <li><a href="Rooms.html"><span class=fa><i class="fa-solid fa-bed"></i></span>Rooms</a></li>
-            <li><a href="restaurant.html"><span class=fa><i class="fa-solid fa-utensils"></i></span>Restaurant</a></li>
-            <li class="current"><a href="spa.html"><span class=fa><i class="fa-solid fa-spa"></i></span>Spa</a></li>
-        </ul>
+    <div class="spa-gallery">
+      <div class="mySlides fade">
+        <a href="Spa1.jpg" target="_blank">
+          <img src="./Spa1.jpg" alt="Spa" style="width:100%"/>
+        </a>
+      </div>
+      <div class="mySlides fade">
+        <a href="Spa2.jpg" target="_blank">
+          <img src="./Spa2.jpg" alt="Massage" style="width:100%"/>
+        </a>
+      </div>
+      <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+        <a href="OutdoorSpa4.jpg" target="_blank">
+          <img src="./OutdoorSpa4.jpg" alt="Champagne-Lake" style="width:100%"/>
+        </a>
+      </div>
+      <a class="prev"
+      onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next"
+      onclick="plusSlides(1)">&#10095;</a>
+      <br>
+      <div style="text-align: center;">
+        <span class="dot"
+      onclick="currentSlide(1)"></span>
+      <span class="dot"
+      onclick="currentSlide(2)"></span>
+      <span class="dot"
+      onclick="currentSlide(3)"></span>
+      </div>
     </div>
-</header>
-<!-- Paste Code Here -->
-  <Footer class="Footer">
-    <ul id="social_links">
-            <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
-            <li><a href="https://facebook.com"><i class="fa-brands fa-facebook fa-2x"></i></a></li>
-            <li><a href="https://Pinterest.com"><i class="fa-brands fa-pinterest fa-2x"></i></a></li>
-            <li><a href="https://youtube.com"><i class="fa-brands fa-youtube fa-2x"></i></a></li>
-    </ul>
-    <p>Copyright &copy; Team 6 2024</p>
-    <p>Terms & Conditions</p>
-    <p>Privacy Policy</p>
+    <div class="button1">
+    <button> Book Now</button>
+    </div>
+    <div class="options bar">
+      <div class="card">
+          <img src="SwimmingPool.jpg" alt="SwimmingPool" style="width: 100%"/>
+        <div class="container">
+          <h4><b>Facilities</b></h4>
+          <p> Enjoy our swimming pool and hot tub as well as our steam and sauna facilities.</p>
+        </div>
+      </div>
+      <div class="card">
+          <img src="./Spa6.jpg" alt="Spa Break" style="width: 100%"/>
+          <div class="container">
+            <h4><b>Spa Breaks & Spa Days</b></h4>
+            <p> Whether you choose to stay just for the day or need some much needed time away, we have a package for you.</p>
+        </div>
+      <div class="card">
+          <img src="./SpaTreatment.jpeg" alt="Spa Treatments" style="width: 100%"/>
+          <div class="container">
+            <h4><b>Treatments</b></h4>
+            <p> Indulge in a serene escape with our luxurious treatments designed to rejuvenate mind, body, and spirit</p>
+          </div>
+      </div>
+    </div>
+    </div>
+    
+    <div class="Reviews">
+    <h2>Reviews</h2>
+    <div class="review1">
+        <h3>Jane</h3>
+        <p>"Visiting Harmony Spa was an absolute delight! From the moment I stepped through the doors, I was greeted with warmth and tranquility. The ambiance was serene, and the staff were incredibly attentive and skilled. My massage was heavenly, melting away all my stress and tension. I left feeling utterly relaxed and rejuvenated. I can't wait to book my next appointment!"</p>
+    </div>
+    <div class="review 2">
+        <h3>Zack</h3>
+        <p>"I had the most wonderful experience! The atmosphere was so calming, and every detail was attended to with care. I opted for a facial, and it was hands down the best I've ever had. The products used were top-notch, and the esthetician was knowledgeable and gentle. I left with glowing skin and a renewed sense of well-being. Highly recommend this oasis of relaxation!"</p>
+    </div>
+    <div class="review 3">
+        <h3>Eisha</h3>
+        <p>Both the hotel and spa exceeded all expectations. From the tranquil ambiance to the expert treatments, everything was impeccable. I treated myself to a full-body scrub followed by a massage, and it was pure bliss. The therapist was skilled and attentive, ensuring I felt comfortable throughout the entire experience. I left feeling refreshed, renewed, and already planning my next visit. If you're looking for a luxurious escape, look no further than Harmony"</p>
+    </div>
+</div>
+<Footer class="Footer">
+  <ul id="social_links">
+          <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
+          <li><a href="https://facebook.com"><i class="fa-brands fa-facebook fa-2x"></i></a></li>
+          <li><a href="https://Pinterest.com"><i class="fa-brands fa-pinterest fa-2x"></i></a></li>
+          <li><a href="https://youtube.com"><i class="fa-brands fa-youtube fa-2x"></i></a></li>
+  </ul>
+  <p>Copyright &copy; Team 6 2024</p>
+  <p>Terms & Conditions</p>
+  <p>Privacy Policy</p>
 </Footer>
+</body>
+</html>
 </body>
 </html>
