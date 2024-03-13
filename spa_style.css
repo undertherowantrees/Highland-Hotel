@@ -94,9 +94,25 @@ height: 50px;
   box-shadow: 0 10px 8px 0
   rgba(110, 65, 65, 0.2);
   transition: 0.3s;
-  width: 350px;
+  min-width: 350px;
   display: inline-block;
   color:#1E303C;
+}
+
+.options_bar {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  align-items:center;
+  padding: 2px 16px;
+  color: #1E303C;
+  font-family: "GFS Didot", serif;
+  font-size: 20px;
+  text-align:center;
+  text-justify:center;
+  margin:auto;
+  width:100%;
 }
 
 .container{
