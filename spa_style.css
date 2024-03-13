@@ -4,7 +4,7 @@ body {
   line-height:1.5;
   margin:0;
   padding:0;
-  background-image:url(/Team_6_Images/Tartan.jpg);
+  background-image:url(Team_6_Images/Tartan.jpg);
   width:100%;
 }
 
@@ -111,6 +111,7 @@ height: 50px;
   justify-content: center;
   color:#1E303C;
   margin:auto;
+  padding:20px;
 }
 
 .card img {
@@ -131,16 +132,20 @@ height: 50px;
   text-align:center;
   text-justify:center;
   margin:auto;
-  width:100%;
+  width:80%;
+  background-color: #9EA799;
 }
 
 .container{
   padding: 2px 16px;
-  background-color: #CDA280;
+  background-color: #9EA799;
   color: #1E303C;
   font-family: "GFS Didot", serif;
   font-size: 20px;
-  
+  text-align:center;
+  text-justify:center;
+  margin:auto;
+  width:100%;
 }
 
 .Reviews {
