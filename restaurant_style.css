@@ -130,10 +130,11 @@ padding:20px;
     list-style: none;
 }
 
-#title p{
+#title h3{
     font-family: "GFS Didot", serif;
     font-weight: 1000;
     font-style: normal;
+    color:#3A6E5A;
     font-size: 24px;
     display:flex;
     flex-direction: column;
@@ -145,6 +146,22 @@ padding:20px;
     margin: auto;
     width:80%;
     padding:20px;
+}
+#title p{
+    font-family:"Georgia";
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 18px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin:auto;
+    background-color: #9EA799;
+    margin: auto;
+    width:80%;
+    padding:10px;
 }
 
 .images {
