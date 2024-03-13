@@ -295,6 +295,7 @@ font-family: "GFS Didot";
 footer #social_links li{
 display:flex;
 flex-direction:row;
+color:#CDA280;
 }
 
 #social_links li {
