@@ -470,6 +470,14 @@ footer #social_links{
     padding-left:30px;
 }
 
+.options_bar {
+  width:90%;
+}
+
+.card {
+  width:30%;
+}
+
 footer {
     width:100%;
     display:flex;
