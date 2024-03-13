@@ -257,6 +257,10 @@ footer #social_links li{
         width:100%;
     }
 
+    .images{
+        width: 100%;
+    }
+
     footer {
         width:100%;
         display:flex;
@@ -310,6 +314,10 @@ footer #social_links li{
     }
     .container {
         width:100%;
+    }
+
+    .images{
+        width: 100%;
     }
 
     footer {
