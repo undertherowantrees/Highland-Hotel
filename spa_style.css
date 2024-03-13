@@ -9,12 +9,14 @@ body {
 }
 
 .pagetitle {
-    text-align:center;
-    padding-top: 0px;
     background-color: #CDA280;
-    position: relative;
-    height: 400px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    margin:auto;
     width: 100%;
+    max-height:250px;
 }
 
 * {box-sizing:border-box}
@@ -23,6 +25,20 @@ body {
   max-width:100%;
   position:relative;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: #9EA799;
+  color: #1E303C;
+  font-family: "GFS Didot", serif;
+  font-size: 20px;
+  text-align:center;
+  text-justify:center;
+  margin:auto;
+  width:90%;
+  border-radius:5px;
 }
 
 .mySlides {
@@ -90,7 +106,7 @@ font-style: normal;
 background-color: #1E303C;
 border: #CDA280;
 color: #9EA799;
-padding: 16px 100px;
+padding: 10px 100px;
 text-decoration:solid;
 display: block;
 font-size: 20px;;
@@ -100,6 +116,7 @@ height: 50px;
 border-radius: 5px;
 margin-bottom: 20px;
 justify-content: center;
+margin-top:20px;
 }
 
 .card {
@@ -115,6 +132,8 @@ justify-content: center;
   color:#1E303C;
   margin:auto;
   padding:20px;
+  border-radius:5px;
+  margin-top:10px;
 }
 
 .card img {
@@ -137,6 +156,8 @@ justify-content: center;
   margin:auto;
   width:80%;
   background-color: #9EA799;
+  margin-bottom:20px;
+  padding-bottom:20px;
 }
 
 .container{
