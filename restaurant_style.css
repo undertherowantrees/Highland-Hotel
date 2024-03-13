@@ -6,57 +6,7 @@ body {
     padding:0;
     background-image:url(/Team_6_Images/Tartan.jpg);
 }
-.images{
-    align-items: center;   
-}
 
-h1{
-font-family: "Bebas Neue", sans-serif;
-font-weight: 400;
-font-style: normal;
-background-color: #3A6E5A;
-font: bolder;
-font-size: 50px;
-}
-
-.title{
-    font-family: "GFS Didot", serif;
-    font-weight: 1000;
-    font-style: normal;
-    font: bold;
-    font-size: 100px;
-    align-items: center;
-    color: rgb(173, 112, 38);
-    padding: 20px left, right, top, bottom;
-    text-size-adjust: 500px;
-}
-
-.body{
-    background-color: #9EA799;
-}
-
-.img1{
-margin-top: 200px;
-margin-bottom: 200px;
-margin-right: 200px;
-margin-left: 10px;
-align-items: center;
-border: #1E303C, solid;
-width: 50%;
-height: auto;
-padding: auto;
-}
-
-.img2{
-align-items: center;
-width: 50%;
-height: auto;
-}
-
-.img3 {
-align-self: center;
-max-width: 500px;
-}
 /* Global */
 
 .container {
@@ -64,6 +14,7 @@ max-width: 500px;
     flex-direction:column;
     margin:auto;
     justify-content:space-around;
+    align-items:center;
     width:80%;
     overflow:hidden;
     background-color: #9EA799;
@@ -130,19 +81,98 @@ a:hover{
     font-style:bold;
     text-decoration:underline;
 }
-/* Home Main Section */
-.container{
-    width:80%;
-    display:flex;
-    justify-content:space-around;
-}
+
 .container h1{
-    font-family:"Bebas Neue";
-    font-size:50px;
-    color:#1E303C;
-    text-align:center;
-    text-justify:center;
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-style: normal;
+background-color: #3A6E5A;
+color:#1E303C;
+font: bolder;
+font-size: 50px;
+text-align:center;
+padding:20px;
 }
+
+.bar {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    width:100%;
+    background-color:#1E303C;
+    color:#CDA280;
+    text-decoration:none;
+    font-family:"GFS Didot";
+    list-style: none;
+}
+.bar ul{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    width:100%;
+    text-decoration:none;
+    font-family:"GFS Didot";
+    list-style: none;
+}
+
+.bar li{
+    text-decoration:none;
+    font-family:"GFS Didot";
+    font-size: 22px;
+    list-style: none;
+}
+
+.bar a{
+    text-decoration:none;
+    font-family:"GFS Didot";
+    list-style: none;
+}
+
+.title {
+    font-family: "GFS Didot", serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-family: "GFS Didot";
+    font-size: 48px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin:auto;
+    color: rgb(173, 112, 38);
+    background-color: #9EA799;
+    margin: auto;
+    width:80%;
+    padding:20px;
+}
+
+.images {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin:auto;
+    background-color: #9EA799;
+    margin:auto;
+    width: 80%;
+}
+
+.images .img1 img, .img2 img, .img3 img {
+    width: 90%;
+    height: 90%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin:auto;
+}
+
+/* Home Main Section */
+
 .container h2{
     font-family:"GFS Didot";
     font-size:36px;
