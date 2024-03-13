@@ -186,6 +186,21 @@ padding:20px;
     margin:auto;
 }
 
+.reviews {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-content:center;
+    align-items:center;
+    margin:auto;
+    width: 95%;
+    background-color:#CDA280;
+    border: solid 2px #9EA799;
+    border-radius: 5px;
+    padding:10px;
+    margin:20px;
+}
+
 /* Home Main Section */
 
 .container h2{
