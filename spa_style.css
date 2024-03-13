@@ -110,23 +110,42 @@ height: 50px;
 
 .Reviews {
   background-color: #CDA280;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items:center;
+  padding: 2px 16px;
+  color: #1E303C;
+  font-family: "GFS Didot", serif;
+  font-size: 20px;
+  text-align:center;
+  text-justify:center;
+  margin:auto;
 }
 
 .Reviews h2 {
 text-align: center;
-font-family: "Georgia";
+font-family: "GFS Didot";
 font-weight: 400;
 font-style: normal;
+Color:#1E303C;
 }
 
 .Reviews h3 {
-font-family:"Georgia";
+font-family:"GFS Didot";
 font-size:18px;
 color:#1E303C;
 text-align:center;
 text-justify:center;
 }
 
+.Reviews p {
+font-family:"Georgia";
+font-size:16px;
+color:#1E303C;
+text-align:center;
+text-justify:center;
+}
 
 
 /* Global */
